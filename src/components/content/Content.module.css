@@ -1,0 +1,45 @@
+.main {
+  width: 70%;
+  min-height: 70vh;
+  margin: 0 auto;
+  background-color: white;
+  padding: 40px 40px;
+}
+
+.main h2 {
+  font-size: 30px;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #2335b8;
+  margin-bottom: 15px;
+}
+
+.content {
+  display: flex;
+}
+
+.coldata {
+  width: 40%;
+}
+.col {
+  width: 60%;
+}
+
+@media screen and (max-width: 1000px) {
+  .main {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main {
+    width: 100%;
+  }
+  .content {
+    display: block;
+  }
+  .coldata,
+  .col {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
